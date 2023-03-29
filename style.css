@@ -28,15 +28,15 @@ body {
 }
 
 .section--1 {
-    background: linear-gradient(90deg, var(--overlay-clr), var(--overlay-clr)), url('./img/1.jpg') no-repeat center / cover;
+    background: linear-gradient(90deg, var(--overlay-clr), var(--overlay-clr)), url('./img/g1.jpg') no-repeat center / cover;
 }
 
 .section--2 {
-    background: linear-gradient(90deg, var(--overlay-clr), var(--overlay-clr)), url('./img/2.jpg') no-repeat center / cover;
+    background: linear-gradient(90deg, var(--overlay-clr), var(--overlay-clr)), url('./img/g2.jpg') no-repeat center / cover;
 }
 
 .section--3 {
-    background: linear-gradient(90deg, var(--overlay-clr), var(--overlay-clr)), url('./img/3.jpg') no-repeat center / cover;
+    background: linear-gradient(90deg, var(--overlay-clr), var(--overlay-clr)), url('./img/g3.jpg') no-repeat center / cover;
 }
 
 /* .section__bg {
