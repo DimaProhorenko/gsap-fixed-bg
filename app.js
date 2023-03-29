@@ -1,4 +1,4 @@
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+gsap.registerPlugin(ScrollTrigger);
 
 gsap.utils.toArray('.section--bg').forEach((section, i) => {
     ScrollTrigger.create({
@@ -12,14 +12,3 @@ gsap.utils.toArray('.section--bg').forEach((section, i) => {
 ScrollTrigger.create({
     snap: 1 / 4 // snap whole page to the closest section!
   });
-
-ScrollSmoother.create({
-    wrapper: '.smooth-wrapper',
-    content: '.smooth-content',
-    smooth: 1.5,
-    effects: true,
-})
-
-// if (ScrollTrigger.isTouch !== 1) {
-    
-// }
